@@ -37,7 +37,7 @@ Pour lancer ce projet en local, vous aurez besoin d'un environnement de serveur 
 ## Utilisation
 
 1.  Une fois l'installation terminée, accédez à l'application via votre navigateur à l'adresse :
-    [http://localhost/algopractice/bijouterie/login.php](http://localhost/algopractice/bijouterie/login.php)
+    [localhost/bijouterie/login_form.php]
 
 2.  Vous pouvez vous connecter avec les comptes par défaut créés par le script SQL. Par exemple :
     - **Rôle** : Chef
