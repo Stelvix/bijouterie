@@ -1,0 +1,51 @@
+ /* Style global de la page */
+ body {
+     font-family: 'Arial', sans-serif;
+     background-color: #f8d7da;
+     /* Fond léger rose pour l'erreur */
+     color: #721c24;
+     /* Texte rouge pour indiquer une erreur */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     /* Remplir toute la hauteur de la page */
+     margin: 0;
+ }
+
+ /* Conteneur central */
+ .error-container {
+     background-color: #ffffff;
+     /* Fond blanc pour faire ressortir le message */
+     padding: 40px;
+     border-radius: 10px;
+     border: 1px solid #f5c6cb;
+     /* Bordure rose clair */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     max-width: 600px;
+     width: 100%;
+ }
+
+ /* Titre d'erreur */
+ h1 {
+     font-size: 4em;
+     margin-bottom: 20px;
+ }
+
+ /* Message d'erreur */
+ p {
+     font-size: 1.2em;
+     margin-bottom: 30px;
+ }
+
+ /* Lien de retour à l'accueil */
+ a {
+     text-decoration: none;
+     color: #007bff;
+     font-size: 1.2em;
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }

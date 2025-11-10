@@ -1,0 +1,100 @@
+body {
+     background-image: url('images/2.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     font-family: "Poppins", sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     margin: 0;
+ }
+
+ .inscription {
+     background: rgba(255, 255, 255, 0.436);
+     width: 900px;
+     border-radius: 12px;
+     padding: 1%;
+     color: black;
+     display: flex;
+     flex-direction: row;
+     /* Pour aligner le logo au-dessus */
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     /* Espace entre le logo et les formulaires */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     flex-flow: row wrap;
+ }
+
+
+ .log {
+     background: rgba(0, 0, 0, 0);
+     height: 500px;
+     width: 48%;
+     /* Permet d'ajuster la taille tout en gardant un bon alignement */
+     border-radius: 12px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 20px;
+     text-align: center;
+ }
+
+ @media (max-width: 768px) {
+     .inscription {
+         flex-direction: column;
+         width: 90%;
+     }
+
+     .log {
+         width: 80%;
+     }
+ }
+
+ .form {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     width: 95%;
+     margin: 0 auto;
+     padding: 20px;
+     border-radius: 12px;
+     background: white;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     color: black;
+     text-align: left;
+ }
+
+ .form h1 {
+     text-align: center;
+     color: black;
+     font-size: 25px;
+ }
+
+ .form input {
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     height: 50px;
+ }
+
+ .inscription .logo-container {
+     width: 100%;
+     text-align: center;
+ }
+
+
+ .inscription img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     display: block;
+     margin: 0 auto;
+     box-shadow: rgba(0, 0, 0, 0.523) 0px 0px 10px;
+ }
+
+
+
+ 
